@@ -2,6 +2,16 @@
 
 Add `Digest::CRC32MpegByHex` module for calculating crc32mpeg by hex input
 
+## Install
+
+Add to Gemfile
+
+```
+
+gem 'digest-crc', github: 'chenqingspring/digest-crc'
+
+```
+
 ## New Usage
 
 Calculate a CRC32 Mpeg by hex:
