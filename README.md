@@ -1,4 +1,4 @@
-## Fork from [digest-crc](https://github.com/postmodern/digest-crc) 
+## Forked from [digest-crc](https://github.com/postmodern/digest-crc) 
 
 Add `Digest::CRC32MpegByHex` module for calculating crc32mpeg by hex input
 
