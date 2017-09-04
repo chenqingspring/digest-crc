@@ -86,7 +86,6 @@ module Digest
       hex_data.scan(/../).each do |b|
         @crc = ((@table[((@crc >> 24) ^ b.to_i(16)) & 0xff] ^ (@crc << 8)) & 0xffffffff)
       end
-      self
     end
 
   end
